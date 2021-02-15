@@ -15,6 +15,9 @@ git remote add origin2 https://github.com/yu81871532/githelp
 git remote show origin2  :  show the origin content
 git remote rm origin
 git push origin master
+**********
+
+git clone https://github.com/... : clone repository to location.
 
 
 
