@@ -7,7 +7,10 @@ copy the content of file "id_rsa.pub" to github.com;
 **********
 
 git init
-git remote add origin https://github.com/yu81871532/vimhelp
+git add "filename"
+git commit --message "notes......"
+git remote add origin https://github.com/yu81871532/githelp
+git remote show origin  :  show the origin content
 git remote rm origin
 git push origin master
 
