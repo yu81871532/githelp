@@ -1,0 +1,15 @@
+yu@yu-notebook1:~/.ssh$ ls -a
+yu@yu-notebook1:~/.ssh$ ssh-keygen -t rsa
+use above commands creat ssh remote connect key;
+private rsa key in file named "id_rsa";
+public rsa key in file named "id_rsa.pub";
+copy the content of file "id_rsa.pub" to github.com;
+**********
+
+git init
+git remote add origin https://github.com/yu81871532/vimhelp
+git remote rm origin
+git push origin master
+
+
+
